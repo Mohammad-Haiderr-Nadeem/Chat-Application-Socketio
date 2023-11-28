@@ -1,0 +1,67 @@
+.roomsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.roomListTitle{
+    font-family: 'Kenia', sans-serif;
+}
+
+.myTitle{
+    font-size: 50px;
+}
+
+.roomList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .roomCard {
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.2s;
+    width: calc(33.33333% - 40px);
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .roomCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .roomImage {
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-height: 200px;
+  }
+  
+  .roomImage img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .roomDetails {
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  

@@ -1,0 +1,26 @@
+.tenantsContainer {
+    margin-left: 1%;
+  }
+  
+  .tenantsTitle {
+    font-family: "Kenia", sans-serif;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .tenantName {
+    margin-left: 1%;
+  }
+  
+  .tenantName:hover {
+    margin-left: 1%;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .listOfTenants {
+    margin-bottom: 1%;
+  }
+  
+  

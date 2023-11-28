@@ -1,0 +1,59 @@
+.formContainer{
+    border: 1px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.firstNameField{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastNameField{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageField{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emailField{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorMessage{
+    font-weight: bold;
+    color: red;
+    font-size: 15px;
+}
+
+.checkboxDiv{
+    margin-left: 20%;
+}
+
+.submitButton{
+    width: 60%;
+    color: white;
+    background-color: blue;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.submitButton:disabled {
+    width: 60%;
+    color: white;
+    background-color: rgb(153, 153, 237);
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
